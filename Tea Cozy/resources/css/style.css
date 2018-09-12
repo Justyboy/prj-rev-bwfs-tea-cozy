@@ -1,0 +1,135 @@
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  font-weight: bold;
+  border: 3px solid lightblue;
+}
+body {
+  width: 1300px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.logo img {
+  padding-left: 10px;
+}
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+a {
+  color: seashell;
+}
+nav span {
+  padding-left: 75px;
+  justify-content: space-around;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  padding-top: 69px;
+  margin: auto;
+}
+.image_main {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  text-align: center;
+  color: seashell;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.image_main .mission {
+  width: 1200px;
+  background-color: black;
+}
+.section2 {
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.flex_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ h2, h3, h4 {
+   text-align: center;
+   padding: 10px;
+   margin: 0;
+}
+.item {
+  display: block;
+}
+.item span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+.flex_container .item img {
+  width: 300px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+  display: block;
+}
+.section3 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+}
+.section3 .flex_locations {
+  display: flex;
+  justify-content: center;
+
+}
+.locations {
+  background: black;
+  opacity: 1;
+  padding: 15px;
+  margin: 40px;
+  width: 300px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+#footer_container {
+  display: block;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 125px;
+
+}
+.subfooter {
+  height: 200px;
+}
+p {
+  text-align: center;
+}
+.copyright {
+  margin-top: 200px;
+  padding-left: 20px;
+  text-align: left;
+}
